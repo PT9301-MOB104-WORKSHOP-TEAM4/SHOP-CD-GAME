@@ -46,4 +46,8 @@
     Private Sub mns_GioiThieu_Click(sender As Object, e As EventArgs) Handles mns_GioiThieu.Click
         frm_gioithieu.Show()
     End Sub
+
+    Private Sub frm_chinh_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

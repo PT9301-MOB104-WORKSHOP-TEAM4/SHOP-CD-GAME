@@ -40,7 +40,7 @@ Partial Class frm_dangnhap
         Me.txt_matkhau.Location = New System.Drawing.Point(363, 152)
         Me.txt_matkhau.Name = "txt_matkhau"
         Me.txt_matkhau.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txt_matkhau.Size = New System.Drawing.Size(181, 27)
+        Me.txt_matkhau.Size = New System.Drawing.Size(181, 23)
         Me.txt_matkhau.TabIndex = 2
         '
         'lbl_tendangnhap
@@ -50,7 +50,7 @@ Partial Class frm_dangnhap
         Me.lbl_tendangnhap.ForeColor = System.Drawing.Color.Maroon
         Me.lbl_tendangnhap.Location = New System.Drawing.Point(208, 101)
         Me.lbl_tendangnhap.Name = "lbl_tendangnhap"
-        Me.lbl_tendangnhap.Size = New System.Drawing.Size(138, 20)
+        Me.lbl_tendangnhap.Size = New System.Drawing.Size(123, 17)
         Me.lbl_tendangnhap.TabIndex = 2
         Me.lbl_tendangnhap.Text = "Tên đăng nhập:"
         '
@@ -61,7 +61,7 @@ Partial Class frm_dangnhap
         Me.lbl_matkhau.ForeColor = System.Drawing.Color.Maroon
         Me.lbl_matkhau.Location = New System.Drawing.Point(208, 152)
         Me.lbl_matkhau.Name = "lbl_matkhau"
-        Me.lbl_matkhau.Size = New System.Drawing.Size(91, 20)
+        Me.lbl_matkhau.Size = New System.Drawing.Size(79, 17)
         Me.lbl_matkhau.TabIndex = 2
         Me.lbl_matkhau.Text = "Mật khẩu:"
         '
@@ -70,7 +70,7 @@ Partial Class frm_dangnhap
         Me.txt_tendangnnhap.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txt_tendangnnhap.Location = New System.Drawing.Point(363, 101)
         Me.txt_tendangnnhap.Name = "txt_tendangnnhap"
-        Me.txt_tendangnnhap.Size = New System.Drawing.Size(181, 27)
+        Me.txt_tendangnnhap.Size = New System.Drawing.Size(181, 23)
         Me.txt_tendangnnhap.TabIndex = 1
         '
         'btn_dangnhap
@@ -111,13 +111,13 @@ Partial Class frm_dangnhap
         Me.lbl_dangnhap.ForeColor = System.Drawing.Color.Navy
         Me.lbl_dangnhap.Location = New System.Drawing.Point(296, 25)
         Me.lbl_dangnhap.Name = "lbl_dangnhap"
-        Me.lbl_dangnhap.Size = New System.Drawing.Size(162, 29)
+        Me.lbl_dangnhap.Size = New System.Drawing.Size(131, 24)
         Me.lbl_dangnhap.TabIndex = 6
         Me.lbl_dangnhap.Text = "ĐĂNG NHẬP"
         '
         'frm_dangnhap
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LimeGreen
         Me.ClientSize = New System.Drawing.Size(556, 253)
