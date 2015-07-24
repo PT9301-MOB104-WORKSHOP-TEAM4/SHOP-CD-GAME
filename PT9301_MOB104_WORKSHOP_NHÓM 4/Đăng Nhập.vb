@@ -1,12 +1,10 @@
 ﻿Imports System.Data.SqlClient
 Public Class frm_dangnhap
 
-
-
     Private Sub btn_dangnhap_Click(sender As Object, e As EventArgs) Handles btn_dangnhap.Click
         Dim chuoiketnoi As String = "workstation id=PT9301-NHOM4.mssql.somee.com;packet size=4096;user id=tuandaps01899_SQLLogin_1;pwd=t2qrbmfz1m;data source=PT9301-NHOM4.mssql.somee.com;persist security info=False;initial catalog=PT9301-NHOM4"
         Dim ketnoi As SqlConnection = New SqlConnection(chuoiketnoi)
-        Dim sqlAdapter As New SqlDataAdapter("select * from tai_khoan where user ='" & txt_tendangnnhap.Text & "' and pass='" & txt_matkhau.Text & "' ", ketnoi)
+        Dim sqlAdapter As New SqlDataAdapter("select * from tai_khoan where user =' " & txt_user.Text & "' and pass='" & txt_pass.Text & "' ", ketnoi)
         Dim tb As New DataTable
 
         Try
@@ -18,9 +16,9 @@ Public Class frm_dangnhap
                 Me.Hide()
             Else
                 MessageBox.Show("Sai Tai Khoan hoac Mat Khau")
-                txt_matkhau.Text = ""
-                txt_tendangnnhap.Text = ""
-                txt_tendangnnhap.Focus()
+                txt_pass.Text = ""
+                txt_user.Text = ""
+                txt_user.Focus()
             End If
 
         Catch ex As Exception
@@ -33,7 +31,7 @@ Public Class frm_dangnhap
         Me.Close()
     End Sub
     Private Sub txt_matkhau_KeyDown(ByVal sender As Object, _
-                  ByVal e As System.Windows.Forms.KeyEventArgs) Handles txt_matkhau.KeyDown
+                  ByVal e As System.Windows.Forms.KeyEventArgs) Handles txt_pass.KeyDown
         If e.KeyCode = Keys.Enter Then      'nếu nhấn phím enter
             btn_dangnhap.PerformClick()          'chuyển sang sự kiện click nút đăng nhập
         End If

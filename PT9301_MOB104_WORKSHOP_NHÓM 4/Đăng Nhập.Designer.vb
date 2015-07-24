@@ -23,10 +23,10 @@ Partial Class frm_dangnhap
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_dangnhap))
-        Me.txt_matkhau = New System.Windows.Forms.TextBox()
+        Me.txt_pass = New System.Windows.Forms.TextBox()
         Me.lbl_tendangnhap = New System.Windows.Forms.Label()
         Me.lbl_matkhau = New System.Windows.Forms.Label()
-        Me.txt_tendangnnhap = New System.Windows.Forms.TextBox()
+        Me.txt_user = New System.Windows.Forms.TextBox()
         Me.btn_dangnhap = New System.Windows.Forms.Button()
         Me.btn_thoat = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -34,14 +34,14 @@ Partial Class frm_dangnhap
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'txt_matkhau
+        'txt_pass
         '
-        Me.txt_matkhau.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_matkhau.Location = New System.Drawing.Point(363, 152)
-        Me.txt_matkhau.Name = "txt_matkhau"
-        Me.txt_matkhau.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txt_matkhau.Size = New System.Drawing.Size(181, 23)
-        Me.txt_matkhau.TabIndex = 2
+        Me.txt_pass.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_pass.Location = New System.Drawing.Point(363, 152)
+        Me.txt_pass.Name = "txt_pass"
+        Me.txt_pass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txt_pass.Size = New System.Drawing.Size(181, 23)
+        Me.txt_pass.TabIndex = 2
         '
         'lbl_tendangnhap
         '
@@ -65,13 +65,13 @@ Partial Class frm_dangnhap
         Me.lbl_matkhau.TabIndex = 2
         Me.lbl_matkhau.Text = "Mật khẩu:"
         '
-        'txt_tendangnnhap
+        'txt_user
         '
-        Me.txt_tendangnnhap.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_tendangnnhap.Location = New System.Drawing.Point(363, 101)
-        Me.txt_tendangnnhap.Name = "txt_tendangnnhap"
-        Me.txt_tendangnnhap.Size = New System.Drawing.Size(181, 23)
-        Me.txt_tendangnnhap.TabIndex = 1
+        Me.txt_user.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_user.Location = New System.Drawing.Point(363, 101)
+        Me.txt_user.Name = "txt_user"
+        Me.txt_user.Size = New System.Drawing.Size(181, 23)
+        Me.txt_user.TabIndex = 1
         '
         'btn_dangnhap
         '
@@ -127,8 +127,8 @@ Partial Class frm_dangnhap
         Me.Controls.Add(Me.btn_dangnhap)
         Me.Controls.Add(Me.lbl_matkhau)
         Me.Controls.Add(Me.lbl_tendangnhap)
-        Me.Controls.Add(Me.txt_tendangnnhap)
-        Me.Controls.Add(Me.txt_matkhau)
+        Me.Controls.Add(Me.txt_user)
+        Me.Controls.Add(Me.txt_pass)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -141,10 +141,10 @@ Partial Class frm_dangnhap
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents txt_matkhau As System.Windows.Forms.TextBox
+    Friend WithEvents txt_pass As System.Windows.Forms.TextBox
     Friend WithEvents lbl_tendangnhap As System.Windows.Forms.Label
     Friend WithEvents lbl_matkhau As System.Windows.Forms.Label
-    Friend WithEvents txt_tendangnnhap As System.Windows.Forms.TextBox
+    Friend WithEvents txt_user As System.Windows.Forms.TextBox
     Friend WithEvents btn_dangnhap As System.Windows.Forms.Button
     Friend WithEvents btn_thoat As System.Windows.Forms.Button
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
