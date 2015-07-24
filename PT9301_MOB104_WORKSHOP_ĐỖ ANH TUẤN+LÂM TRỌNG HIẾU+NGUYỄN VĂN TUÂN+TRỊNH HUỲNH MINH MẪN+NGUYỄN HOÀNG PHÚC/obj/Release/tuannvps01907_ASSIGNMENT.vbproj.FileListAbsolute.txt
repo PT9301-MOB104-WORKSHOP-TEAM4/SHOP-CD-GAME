@@ -1,0 +1,16 @@
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\bin\Release\tuannvps01907_ASSIGNMENT.exe.config
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\bin\Release\tuannvps01907_ASSIGNMENT.exe
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\bin\Release\tuannvps01907_ASSIGNMENT.pdb
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\bin\Release\tuannvps01907_ASSIGNMENT.xml
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.frm_KhachHang.resources
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.frm_DanhSach.resources
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.frm_hoadon.resources
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.frm_nhanvien.resources
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.frm_SanPham.resources
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.frm_dangnhap.resources
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.frm_chinh.resources
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.Resources.resources
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.vbproj.GenerateResource.Cache
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.exe
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.xml
+E:\Hoc\INF205- Điện toán đám mây\ASM\gd2\tuannvps01907_ASM_GD2\tuannvps01907_ASSIGNMENT\obj\Release\tuannvps01907_ASSIGNMENT.pdb
