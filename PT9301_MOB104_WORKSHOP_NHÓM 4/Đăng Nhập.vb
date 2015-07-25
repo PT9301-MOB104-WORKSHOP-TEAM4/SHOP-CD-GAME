@@ -32,8 +32,8 @@ Public Class frm_dangnhap
     End Sub
     Private Sub txt_matkhau_KeyDown(ByVal sender As Object, _
                   ByVal e As System.Windows.Forms.KeyEventArgs) Handles txt_pass.KeyDown
-        If e.KeyCode = Keys.Enter Then      'nếu nhấn phím enter
-            btn_dangnhap.PerformClick()          'chuyển sang sự kiện click nút đăng nhập
+        If e.KeyCode = Keys.Enter Then
+            btn_dangnhap.PerformClick()
         End If
     End Sub
 
