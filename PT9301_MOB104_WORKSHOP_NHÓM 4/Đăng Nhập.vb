@@ -3,10 +3,9 @@ Public Class frm_dangnhap
 
     Private Sub btn_dangnhap_Click(sender As Object, e As EventArgs) Handles btn_dangnhap.Click
 
-        Dim chuoiketnoi As String = "workstation id=hieult123.mssql.somee.com;packet size=4096;user id=hieulam1612_SQLLogin_3;pwd=xu7eq2qw3w;data source=hieult123.mssql.somee.com;persist security info=False;initial catalog=hieult123"
+        Dim chuoiketnoi As String = "workstation id=hieult123.mssql.somee.com;packet size=4096;user id=hieulam1612_SQLLogin_1;pwd=19ltpr1k53;data source=hieult123.mssql.somee.com;persist security info=False;initial catalog=hieult123"
         Dim ketnoi As SqlConnection = New SqlConnection(chuoiketnoi)
-        Dim sqlAdapter As New SqlDataAdapter("select * from taikhoan where dangnhap='" & txt_user.Text & "' and matkhau='" & txt_pass.Text & "' ", ketnoi)
-
+        Dim sqlAdapter As New SqlDataAdapter("select * from taikhoan where user='" & txt_user.Text & "' and pass='" & txt_pass.Text & "' ", ketnoi)
         Dim tb As New DataTable
 
         Try

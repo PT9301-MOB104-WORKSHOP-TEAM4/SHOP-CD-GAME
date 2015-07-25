@@ -79,7 +79,7 @@ Partial Class frm_dangnhap
         Me.btn_dangnhap.ForeColor = System.Drawing.Color.Maroon
         Me.btn_dangnhap.Location = New System.Drawing.Point(284, 197)
         Me.btn_dangnhap.Name = "btn_dangnhap"
-        Me.btn_dangnhap.Size = New System.Drawing.Size(125, 33)
+        Me.btn_dangnhap.Size = New System.Drawing.Size(105, 33)
         Me.btn_dangnhap.TabIndex = 3
         Me.btn_dangnhap.Text = "Đăng Nhập"
         Me.btn_dangnhap.UseVisualStyleBackColor = True
@@ -88,9 +88,9 @@ Partial Class frm_dangnhap
         '
         Me.btn_thoat.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_thoat.ForeColor = System.Drawing.Color.Maroon
-        Me.btn_thoat.Location = New System.Drawing.Point(442, 197)
+        Me.btn_thoat.Location = New System.Drawing.Point(439, 197)
         Me.btn_thoat.Name = "btn_thoat"
-        Me.btn_thoat.Size = New System.Drawing.Size(102, 33)
+        Me.btn_thoat.Size = New System.Drawing.Size(105, 33)
         Me.btn_thoat.TabIndex = 4
         Me.btn_thoat.Text = "Thoát"
         Me.btn_thoat.UseVisualStyleBackColor = True
