@@ -1,2 +1,2 @@
-tên dang nh?p: admin
-m?t kh?u : admin
+user: admin
+pass : admin
