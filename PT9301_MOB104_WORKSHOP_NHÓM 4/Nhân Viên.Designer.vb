@@ -53,7 +53,7 @@ Partial Class frm_nhanvien
         Me.Label1.Location = New System.Drawing.Point(13, 51)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(117, 18)
+        Me.Label1.Size = New System.Drawing.Size(101, 15)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Mã Nhân Viên:"
         '
@@ -65,7 +65,7 @@ Partial Class frm_nhanvien
         Me.Label2.Location = New System.Drawing.Point(62, 116)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(68, 18)
+        Me.Label2.Size = New System.Drawing.Size(57, 15)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Họ Tên:"
         '
@@ -77,7 +77,7 @@ Partial Class frm_nhanvien
         Me.Label3.Location = New System.Drawing.Point(385, 48)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(95, 18)
+        Me.Label3.Size = New System.Drawing.Size(81, 15)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Phòng Ban:"
         '
@@ -89,7 +89,7 @@ Partial Class frm_nhanvien
         Me.lbl_SoDT.Location = New System.Drawing.Point(360, 113)
         Me.lbl_SoDT.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbl_SoDT.Name = "lbl_SoDT"
-        Me.lbl_SoDT.Size = New System.Drawing.Size(120, 18)
+        Me.lbl_SoDT.Size = New System.Drawing.Size(102, 15)
         Me.lbl_SoDT.TabIndex = 0
         Me.lbl_SoDT.Text = "Số Điện Thoại:"
         '
@@ -101,7 +101,7 @@ Partial Class frm_nhanvien
         Me.lbl_DiaChi.Location = New System.Drawing.Point(403, 163)
         Me.lbl_DiaChi.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbl_DiaChi.Name = "lbl_DiaChi"
-        Me.lbl_DiaChi.Size = New System.Drawing.Size(68, 18)
+        Me.lbl_DiaChi.Size = New System.Drawing.Size(58, 15)
         Me.lbl_DiaChi.TabIndex = 0
         Me.lbl_DiaChi.Text = "Địa Chỉ:"
         '
@@ -110,7 +110,7 @@ Partial Class frm_nhanvien
         Me.txt_MaNV.Location = New System.Drawing.Point(138, 51)
         Me.txt_MaNV.Margin = New System.Windows.Forms.Padding(4)
         Me.txt_MaNV.Name = "txt_MaNV"
-        Me.txt_MaNV.Size = New System.Drawing.Size(216, 24)
+        Me.txt_MaNV.Size = New System.Drawing.Size(216, 21)
         Me.txt_MaNV.TabIndex = 1
         '
         'txt_HoTen
@@ -118,7 +118,7 @@ Partial Class frm_nhanvien
         Me.txt_HoTen.Location = New System.Drawing.Point(138, 113)
         Me.txt_HoTen.Margin = New System.Windows.Forms.Padding(4)
         Me.txt_HoTen.Name = "txt_HoTen"
-        Me.txt_HoTen.Size = New System.Drawing.Size(216, 24)
+        Me.txt_HoTen.Size = New System.Drawing.Size(216, 21)
         Me.txt_HoTen.TabIndex = 2
         '
         'txt_PhongBan
@@ -126,7 +126,7 @@ Partial Class frm_nhanvien
         Me.txt_PhongBan.Location = New System.Drawing.Point(494, 48)
         Me.txt_PhongBan.Margin = New System.Windows.Forms.Padding(4)
         Me.txt_PhongBan.Name = "txt_PhongBan"
-        Me.txt_PhongBan.Size = New System.Drawing.Size(190, 24)
+        Me.txt_PhongBan.Size = New System.Drawing.Size(190, 21)
         Me.txt_PhongBan.TabIndex = 3
         '
         'txt_SoDT
@@ -134,7 +134,7 @@ Partial Class frm_nhanvien
         Me.txt_SoDT.Location = New System.Drawing.Point(494, 110)
         Me.txt_SoDT.Margin = New System.Windows.Forms.Padding(4)
         Me.txt_SoDT.Name = "txt_SoDT"
-        Me.txt_SoDT.Size = New System.Drawing.Size(190, 24)
+        Me.txt_SoDT.Size = New System.Drawing.Size(190, 21)
         Me.txt_SoDT.TabIndex = 4
         '
         'txt_DiaChi
@@ -142,7 +142,7 @@ Partial Class frm_nhanvien
         Me.txt_DiaChi.Location = New System.Drawing.Point(494, 163)
         Me.txt_DiaChi.Margin = New System.Windows.Forms.Padding(4)
         Me.txt_DiaChi.Name = "txt_DiaChi"
-        Me.txt_DiaChi.Size = New System.Drawing.Size(190, 24)
+        Me.txt_DiaChi.Size = New System.Drawing.Size(190, 21)
         Me.txt_DiaChi.TabIndex = 5
         '
         'DataGridView1
@@ -200,7 +200,7 @@ Partial Class frm_nhanvien
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mns_Thoat, Me.mns_TroLai})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(704, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(704, 24)
         Me.MenuStrip1.TabIndex = 10
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -208,14 +208,14 @@ Partial Class frm_nhanvien
         '
         Me.mns_Thoat.Image = CType(resources.GetObject("mns_Thoat.Image"), System.Drawing.Image)
         Me.mns_Thoat.Name = "mns_Thoat"
-        Me.mns_Thoat.Size = New System.Drawing.Size(75, 24)
+        Me.mns_Thoat.Size = New System.Drawing.Size(66, 20)
         Me.mns_Thoat.Text = "Thoát"
         '
         'mns_TroLai
         '
         Me.mns_TroLai.Image = CType(resources.GetObject("mns_TroLai.Image"), System.Drawing.Image)
         Me.mns_TroLai.Name = "mns_TroLai"
-        Me.mns_TroLai.Size = New System.Drawing.Size(82, 24)
+        Me.mns_TroLai.Size = New System.Drawing.Size(71, 20)
         Me.mns_TroLai.Text = "Trở Lại"
         '
         'btn_LamLai
@@ -232,7 +232,7 @@ Partial Class frm_nhanvien
         '
         'frm_nhanvien
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 18.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.ClientSize = New System.Drawing.Size(704, 459)
