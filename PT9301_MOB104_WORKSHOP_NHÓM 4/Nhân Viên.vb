@@ -3,10 +3,10 @@ Imports System.Data.DataTable
 
 Public Class frm_nhanvien
     Dim tb As New DataTable
-    Dim connectstr As String = "workstation id=tuannvps01907.mssql.somee.com;packet size=4096;user id=PS01907;pwd=ILoveyou123;data source=tuannvps01907.mssql.somee.com;persist security info=False;initial catalog=tuannvps01907"
+    Dim connectstr As String = "workstation id=mob104nhom4.mssql.somee.com;packet size=4096;user id=mob104_SQLLogin_1;pwd=78jjelkew9;data source=mob104nhom4.mssql.somee.com;persist security info=False;initial catalog=mob104nhom4"
     Public Sub loadData()
         Dim ketnoi As New SqlConnection(connectstr)
-        Dim sqlAdapter As New SqlDataAdapter("select * from NhanVien", ketnoi)
+        Dim sqlAdapter As New SqlDataAdapter("select * from nhan_vien", ketnoi)
         Try
 
             ketnoi.Open()
@@ -25,15 +25,14 @@ Public Class frm_nhanvien
 
         ketnoi.Open()
 
-        Dim stradd As String = "INSERT INTO NhanVien VALUES (@MaNhanVien , @HoTen,@PhongBan ,@SoDT ,@DiaChi)"
+        Dim stradd As String = "INSERT INTO nhan_vien VALUES (@ma_nv, @ho_ten,@dia_chi ,@so_dt ,@phong_ban)"
         Dim com As New SqlCommand(stradd, ketnoi)
         Try
-            com.Parameters.AddWithValue("@MaNhanVien", txt_MaNV.Text)
-            com.Parameters.AddWithValue("@HoTen", txt_HoTen.Text)
-            com.Parameters.AddWithValue("@PhongBan", txt_PhongBan.Text)
-            com.Parameters.AddWithValue("@SoDT", txt_SoDT.Text)
-            com.Parameters.AddWithValue("@DiaChi", txt_DiaChi.Text)
-
+            com.Parameters.AddWithValue("@ma_nv", txt_MaNV.Text)
+            com.Parameters.AddWithValue("@ho_ten", txt_HoTen.Text)
+            com.Parameters.AddWithValue("@dia_chi", txt_PhongBan.Text)
+            com.Parameters.AddWithValue("@so_dt", txt_SoDT.Text)
+            com.Parameters.AddWithValue("@phong_ban", txt_DiaChi.Text)
             com.ExecuteNonQuery()
 
 
@@ -54,15 +53,15 @@ Public Class frm_nhanvien
     Private Sub btn_Sua_Click(sender As Object, e As EventArgs) Handles btn_Sua.Click
         Dim ketnoi As New SqlConnection(connectstr)
         ketnoi.Open()
-        Dim stradd As String = "UPDATE NhanVien SET  HoTen = @HoTen , PhongBan = @PhongBan ,SoDT = @SoDT ,DiaChi = @DiaChi WHERE MaNhanVien = @MaNhanVien"
+        Dim stradd As String = "UPDATE nhan_vien SET  HoTen = @ho_ten , PhongBan = @phong_ban ,SoDT = @so_dt ,DiaChi = @dia_chi WHERE MaNhanVien = @ma_nv"
         Dim com As New SqlCommand(stradd, ketnoi)
 
         Try
-            com.Parameters.AddWithValue("@MaNhanVien", txt_MaNV.Text)
-            com.Parameters.AddWithValue("@HoTen", txt_HoTen.Text)
-            com.Parameters.AddWithValue("@PhongBan", txt_PhongBan.Text)
-            com.Parameters.AddWithValue("@SoDT", txt_SoDT.Text)
-            com.Parameters.AddWithValue("@DiaChi", txt_DiaChi.Text)
+            com.Parameters.AddWithValue("@ma_nv", txt_MaNV.Text)
+            com.Parameters.AddWithValue("@ho_ten", txt_HoTen.Text)
+            com.Parameters.AddWithValue("@phong_ban", txt_PhongBan.Text)
+            com.Parameters.AddWithValue("@so_dt", txt_SoDT.Text)
+            com.Parameters.AddWithValue("@dia_chi", txt_DiaChi.Text)
             com.ExecuteNonQuery()
 
             ketnoi.Close()
@@ -89,7 +88,7 @@ Public Class frm_nhanvien
 
     Private Sub frm_nhanvien_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim ketnoi As New SqlConnection(connectstr)
-        Dim sqlAdapter As New SqlDataAdapter("select * from NhanVien", ketnoi)
+        Dim sqlAdapter As New SqlDataAdapter("select * from nhan_vien", ketnoi)
         Try
 
             sqlAdapter.Fill(tb)
@@ -104,10 +103,10 @@ Public Class frm_nhanvien
     Private Sub btn_xoa_Click(sender As Object, e As EventArgs) Handles btn_xoa.Click
         Dim ketnoi As New SqlConnection(connectstr)
         ketnoi.Open()
-        Dim stradd As String = "Delete from NhanVien WHERE MaNhanVien =@MaNhanVien"
+        Dim stradd As String = "Delete from nhan_vien WHERE MaNhanVien =@ma_nv"
         Dim com As New SqlCommand(stradd, ketnoi)
         Try
-            com.Parameters.AddWithValue("@MaNhanVien", txt_MaNV.Text)
+            com.Parameters.AddWithValue("@ma_nv", txt_MaNV.Text)
             com.ExecuteNonQuery()
             ketnoi.Close()
 

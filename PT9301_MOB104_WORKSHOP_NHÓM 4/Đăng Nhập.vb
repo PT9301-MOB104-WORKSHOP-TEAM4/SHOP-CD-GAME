@@ -1,11 +1,12 @@
 ﻿Imports System.Data.SqlClient
 Public Class frm_dangnhap
 
-    Private Sub btn_dangnhap_Click(sender As Object, e As EventArgs) Handles btn_dangnhap.Click
+    Private Sub btn_dangnhap_Click(sender As Object, e As EventArgs) Handles btn_dangnhap.Click, MyBase.Enter, btn_dangnhap.Enter
 
-        Dim chuoiketnoi As String = "workstation id=hieult123.mssql.somee.com;packet size=4096;user id=hieulam1612_SQLLogin_1;pwd=19ltpr1k53;data source=hieult123.mssql.somee.com;persist security info=False;initial catalog=hieult123"
+        Dim chuoiketnoi As String = "workstation id=mob104nhom4.mssql.somee.com;packet size=4096;user id=mob104_SQLLogin_1;pwd=78jjelkew9;data source=mob104nhom4.mssql.somee.com;persist security info=False;initial catalog=mob104nhom4"
         Dim ketnoi As SqlConnection = New SqlConnection(chuoiketnoi)
-        Dim sqlAdapter As New SqlDataAdapter("select * from taikhoan where user='" & txt_user.Text & "' and pass='" & txt_pass.Text & "' ", ketnoi)
+        Dim sqlAdapter As New SqlDataAdapter("select * from taikhoan where tendangnhap='" & txt_user.Text & "' and matkhau='" & txt_pass.Text & "' ", ketnoi)
+
         Dim tb As New DataTable
 
         Try

@@ -32,3 +32,7 @@ C:\Users\hieu\Desktop\SHOP-CD-GAME\PT9301_MOB104_WORKSHOP_NHÓM 4\obj\Debug\PT93
 C:\Users\hieu\Desktop\SHOP-CD-GAME\PT9301_MOB104_WORKSHOP_NHÓM 4\obj\Debug\tuannvps01907_ASSIGNMENT.exe
 C:\Users\hieu\Desktop\SHOP-CD-GAME\PT9301_MOB104_WORKSHOP_NHÓM 4\obj\Debug\tuannvps01907_ASSIGNMENT.xml
 C:\Users\hieu\Desktop\SHOP-CD-GAME\PT9301_MOB104_WORKSHOP_NHÓM 4\obj\Debug\tuannvps01907_ASSIGNMENT.pdb
+C:\Users\admin\Desktop\hieu\SHOP-CD-GAME\PT9301_MOB104_WORKSHOP_NHÓM 4\bin\Debug\tuannvps01907_ASSIGNMENT.exe.config
+C:\Users\admin\Desktop\hieu\SHOP-CD-GAME\PT9301_MOB104_WORKSHOP_NHÓM 4\obj\Debug\tuannvps01907_ASSIGNMENT.exe
+C:\Users\admin\Desktop\hieu\SHOP-CD-GAME\PT9301_MOB104_WORKSHOP_NHÓM 4\obj\Debug\tuannvps01907_ASSIGNMENT.xml
+C:\Users\admin\Desktop\hieu\SHOP-CD-GAME\PT9301_MOB104_WORKSHOP_NHÓM 4\obj\Debug\tuannvps01907_ASSIGNMENT.pdb

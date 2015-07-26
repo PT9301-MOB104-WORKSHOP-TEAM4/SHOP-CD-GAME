@@ -60,14 +60,14 @@ Partial Class frm_chinh
         '
         Me.mns_DangXuat.Image = CType(resources.GetObject("mns_DangXuat.Image"), System.Drawing.Image)
         Me.mns_DangXuat.Name = "mns_DangXuat"
-        Me.mns_DangXuat.Size = New System.Drawing.Size(129, 22)
+        Me.mns_DangXuat.Size = New System.Drawing.Size(152, 22)
         Me.mns_DangXuat.Text = "Đăng Xuất"
         '
         'mns_Thoat
         '
         Me.mns_Thoat.Image = CType(resources.GetObject("mns_Thoat.Image"), System.Drawing.Image)
         Me.mns_Thoat.Name = "mns_Thoat"
-        Me.mns_Thoat.Size = New System.Drawing.Size(129, 22)
+        Me.mns_Thoat.Size = New System.Drawing.Size(152, 22)
         Me.mns_Thoat.Text = "Thoát"
         '
         'mns_BanHang
@@ -104,21 +104,21 @@ Partial Class frm_chinh
         '
         Me.mns_SanPham.Image = CType(resources.GetObject("mns_SanPham.Image"), System.Drawing.Image)
         Me.mns_SanPham.Name = "mns_SanPham"
-        Me.mns_SanPham.Size = New System.Drawing.Size(139, 22)
+        Me.mns_SanPham.Size = New System.Drawing.Size(152, 22)
         Me.mns_SanPham.Text = "Sản Phẩm"
         '
         'nms_KhachHang
         '
         Me.nms_KhachHang.Image = CType(resources.GetObject("nms_KhachHang.Image"), System.Drawing.Image)
         Me.nms_KhachHang.Name = "nms_KhachHang"
-        Me.nms_KhachHang.Size = New System.Drawing.Size(139, 22)
+        Me.nms_KhachHang.Size = New System.Drawing.Size(152, 22)
         Me.nms_KhachHang.Text = "Khách Hàng"
         '
         'mns_NhanVien
         '
         Me.mns_NhanVien.Image = CType(resources.GetObject("mns_NhanVien.Image"), System.Drawing.Image)
         Me.mns_NhanVien.Name = "mns_NhanVien"
-        Me.mns_NhanVien.Size = New System.Drawing.Size(139, 22)
+        Me.mns_NhanVien.Size = New System.Drawing.Size(152, 22)
         Me.mns_NhanVien.Text = "Nhân Viên"
         '
         'mns_GioiThieu
@@ -141,7 +141,7 @@ Partial Class frm_chinh
         Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frm_chinh"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

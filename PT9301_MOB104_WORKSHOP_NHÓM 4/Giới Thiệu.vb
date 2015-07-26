@@ -8,7 +8,7 @@ Public Class frm_gioithieu
     End Sub
 
 
-    Private Sub ptb_ThayAnh_Click(sender As Object, e As EventArgs) Handles ptb_ThayAnh.Click
+    Private Sub ptb_ThayAnh_Click(sender As Object, e As EventArgs)
         If (ofd_AnhDaiDien.ShowDialog() = Windows.Forms.DialogResult.OK) Then
 
             Dim formpath As String = ofd_AnhDaiDien.FileName
